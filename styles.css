@@ -23,9 +23,29 @@ body {
     color: var(--text-dark);
     background-color: #f9fafb;
 }
+.image-card {
+    width: 300px; /* Set a fixed width for the card */
+    border-radius: 0.5rem; /* Rounded corners */
+    overflow: hidden; /* Ensures content stays within the card */
+    box-shadow: var(--shadow-md); /* Subtle shadow for the card */
+    transition: var(--transition); /* Smooth transition effect */
+    background-color: white; /* Background color for the card */
+    margin: 1rem auto; /* Center the card horizontally */
+}
+
+.image-card img {
+    width: 100%; /* Ensure the image fits within the card */
+    height: auto; /* Maintain the aspect ratio of the image */
+    display: block; /* Remove any extra spacing below the image */
+}
+
+.image-card:hover {
+    box-shadow: var(--shadow-lg); /* Stronger shadow effect on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
 .styled-image {
-    width: 40%;
-    height: 200px;
+    width: 80%;
+    height: 300px;
     border-radius: 0.5rem; /* Matches the card's border-radius */
     box-shadow: var(--shadow-md); /* Applies shadow to the image */
     transition: var(--transition); /* Smooth transition effect */
