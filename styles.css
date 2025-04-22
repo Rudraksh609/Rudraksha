@@ -23,6 +23,18 @@ body {
     color: var(--text-dark);
     background-color: #f9fafb;
 }
+.styled-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem; /* Matches the card's border-radius */
+    box-shadow: var(--shadow-md); /* Applies shadow to the image */
+    transition: var(--transition); /* Smooth transition effect */
+}
+
+.styled-image:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: var(--shadow-lg); /* Stronger shadow on hover */
+}
 
 .header {
     position: fixed;
