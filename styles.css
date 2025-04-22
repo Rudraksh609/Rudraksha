@@ -24,8 +24,8 @@ body {
     background-color: #f9fafb;
 }
 .styled-image {
-    width: 80%;
-    height: 300px;
+    width: 40%;
+    height: 200px;
     border-radius: 0.5rem; /* Matches the card's border-radius */
     box-shadow: var(--shadow-md); /* Applies shadow to the image */
     transition: var(--transition); /* Smooth transition effect */
